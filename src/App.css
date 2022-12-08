@@ -1,11 +1,13 @@
-.App {
-  text-align: center;
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.board{
+ margin: 20px;
+ text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
